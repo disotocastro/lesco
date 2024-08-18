@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.videos-container {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.container-accordion {
+  background-image: var(--primary);
+  font-family: sans-serif;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+}
+
+.video-container {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.main-video {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-playlist {
+  height: 75%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main-video video {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.main-video .title {
+  margin-top: 1rem;
+}
+
+.video-playlist .title {
+  padding-left: 1rem;
+}
+
+.video-playlist>p {
+  padding: 1rem;
+  color: var(--secondary);
+}
+
+.video-playlist .videos {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.video-playlist .videos::-webkit-scrollbar {
+  width: 0.4rem;
+  border-radius: 0.4rem;
+  background-color: #0005;
+}
+
+.video-playlist .videos::-webkit-scrollbar-thumb {
+  border-radius: 0.4rem;
+  background-color: #f0e6bf;
+}
+
+.video-playlist .videos .video {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin-top: 0.1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.video-playlist .videos .video:hover {
+  background-color: #0003;
+}
+
+.video-playlist .videos .video.active {
+  background-color: #f0e6bf;
+  color: var(--secondary);
+}
+
+.video img {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: invert(100%);
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-playlist .videos .video.active img {
+  filter: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
+}
+
+.video p {
+  margin-left: 2.5rem;
+  margin-top: 0.4rem;
+}
+
+.video h3 {
+  width: 23rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font: 100 1rem sans-serif;
+}
+
+/* Ajustes responsivos para tablets y móviles */
+@media screen and (max-width: 1024px) {
+  .video-container {
+    flex-direction: column;
+  }
+
+  .main-video video {
+    width: 100%;
+    /* Ajusta el ancho del video al 100% del contenedor */
+    height: 80%;
+    /* Ajusta la altura del video de forma proporcional */
+  }
+
+  .video-playlist {
+    margin-top: 1rem;
+    width: 60%;
+    height: 80%;
+    /* Agrega un margen superior para separar la playlist del video */
+  }
+
+  .custom-ad a {
+    width: 70% !important;
+  }
+}
+
+
+/* Ajustes adicionales para dispositivos móviles (pantallas pequeñas) */
+@media screen and (max-width: 500px) {
+  .videos-container {
+    flex-direction: column;
+    height: 70vh;
+
+  }
+
+  .main-video {
+    width: 100%;
+    height: 120%;
+
+    /* Asegura que el contenedor del video ocupe el ancho completo */
+  }
+
+  .main-video video {
+    width: 50%;
+    /* El video ocupa todo el ancho del contenedor */
+    height: 100%;
+
+    /* Ajusta la altura de forma proporcional */
+  }
+
+  .video-playlist {
+    margin-top: 1rem;
+    /* Separa el playlist del video */
+    width: 100%;
+    height: 50%;
+    /* Asegura que la playlist ocupe el ancho completo debajo del video */
+  }
+
+  /* .video-playlist videos {
+    margin-top: 0 !important;
+  } */
+
+  .parrafo-descripcion {
+    display: none;
+  }
+
+
+  .custom-ad a {
+    width: 100% !important;
+  }
+}
+
+
+
+/* Cambiar el fondo del botón del acordeón */
+.accordion-button {
+  background-color: #fcf7da;
+  color: #000;
+  /* Cambiar el color del texto si es necesario */
+  border: none;
+  /* Opcional: elimina el borde */
+}
+
+/* Cambiar el fondo del botón cuando está colapsado */
+.accordion-button:not(.collapsed) {
+  background-color: #f0e6bf;
+  /* Un color un poco más oscuro para indicar que está abierto */
+}
+
+/* Cambiar el color del texto del botón al hacer hover */
+.accordion-button:hover {
+  background-color: #e8ddb0;
+  /* Un color un poco más oscuro para el hover */
+}
+
+
+
+.custom-ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-ad a {
+  width: 60%;
+}
