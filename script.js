@@ -27,7 +27,7 @@ let data = {
     relaciones: [
         { 'id': 'r1', 'title': 'Buenas tardes', 'name': 'buenas_tardes.mp4' },
         { 'id': 'r2', 'title': 'Buenos días', 'name': 'buenos_dias.mp4' },
-        { 'id': 'r12', 'title': 'Sí', 'name': 'si.mp4' },
+        { 'id': 'r21', 'title': 'Sí', 'name': 'si.mp4' },
         { 'id': 'r12', 'title': 'No', 'name': 'no.mp4' },
         { 'id': 'r10', 'title': 'Necesito', 'name': 'necesitar.mp4' },
         { 'id': 'r11', 'title': 'No entiendo', 'name': 'no_entiendo.mp4' },
