@@ -59,8 +59,6 @@ let data = {
         { 'id': 'a10', 'title': 'Reprogramar', 'name': 'reprogramar.mp4' },
         { 'id': 'a11', 'title': '¿Cuál es su número de teléfono?', 'name': 'cual_es_su_numero_de_telefono.mp4' },
         { 'id': 'a12', 'title': '¿Qué edad tiene?', 'name': 'que_edad_tiene.mp4' },
-
-
     ]
 };
 // Function to populate video playlists
