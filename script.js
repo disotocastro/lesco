@@ -59,8 +59,103 @@ let data = {
         { 'id': 'a10', 'title': 'Reprogramar', 'name': 'reprogramar.mp4' },
         { 'id': 'a11', 'title': '¿Cuál es su número de teléfono?', 'name': 'cual_es_su_numero_de_telefono.mp4' },
         { 'id': 'a12', 'title': '¿Qué edad tiene?', 'name': 'que_edad_tiene.mp4' },
+    ],
+    alfabeto: [
+        { 'id': 'alf1', 'title': 'A', 'name': 'a.mp4' },
+        { 'id': 'alf2', 'title': 'B', 'name': 'b.mp4' },
+        { 'id': 'alf3', 'title': 'C', 'name': 'c.mp4' },
+        { 'id': 'alf4', 'title': 'D', 'name': 'd.mp4' },
+        { 'id': 'alf5', 'title': 'E', 'name': 'e.mp4' },
+        { 'id': 'alf6', 'title': 'F', 'name': 'f.mp4' },
+        { 'id': 'alf7', 'title': 'G', 'name': 'g.mp4' },
+        { 'id': 'alf8', 'title': 'H', 'name': 'h.mp4' },
+        { 'id': 'alf9', 'title': 'I', 'name': 'i.mp4' },
+        { 'id': 'alf10', 'title': 'J', 'name': 'j.mp4' },
+        { 'id': 'alf11', 'title': 'K', 'name': 'k.mp4' },
+        { 'id': 'alf12', 'title': 'L', 'name': 'l.mp4' },
+        { 'id': 'alf13', 'title': 'LL', 'name': 'll.mp4' },
+        { 'id': 'alf14', 'title': 'M', 'name': 'm.mp4' },
+        { 'id': 'alf15', 'title': 'N', 'name': 'n.mp4' },
+        { 'id': 'alf16', 'title': 'O', 'name': 'o.mp4' },
+        { 'id': 'alf17', 'title': 'P', 'name': 'p.mp4' },
+        { 'id': 'alf18', 'title': 'Q', 'name': 'q.mp4' },
+        { 'id': 'alf19', 'title': 'R', 'name': 'r.mp4' },
+        { 'id': 'alf20', 'title': 'RR', 'name': 'rr.mp4' },
+        { 'id': 'alf21', 'title': 'S', 'name': 's.mp4' },
+        { 'id': 'alf22', 'title': 'T', 'name': 't.mp4' },
+        { 'id': 'alf23', 'title': 'U', 'name': 'u.mp4' },
+        { 'id': 'alf24', 'title': 'V', 'name': 'v.mp4' },
+        { 'id': 'alf25', 'title': 'W', 'name': 'w.mp4' },
+        { 'id': 'alf26', 'title': 'X', 'name': 'x.mp4' },
+        { 'id': 'alf27', 'title': 'Y', 'name': 'y.mp4' },
+        { 'id': 'alf28', 'title': 'Z', 'name': 'z.mp4' },
+    ],
+    animales: [
+        { 'id': 'ani1', 'title': 'Ave', 'name': 'ave.mp4' },
+        { 'id': 'ani2', 'title': 'Cocodrilo', 'name': 'cocodrilo.mp4' },
+        { 'id': 'ani3', 'title': 'Conejo', 'name': 'conejo.mp4' },
+        { 'id': 'ani4', 'title': 'Gato', 'name': 'gato.mp4' },
+        { 'id': 'ani5', 'title': 'Jirafa', 'name': 'jirafa.mp4' },
+        { 'id': 'ani6', 'title': 'León', 'name': 'leon.mp4' },
+        { 'id': 'ani7', 'title': 'Pez', 'name': 'pez.mp4' },
+        { 'id': 'ani8', 'title': 'Serpiente', 'name': 'serpiente.mp4' },
+    ],
+    comidas: [
+        { 'id': 'com1', 'title': 'Arroz', 'name': 'arroz.mp4' },
+        { 'id': 'com2', 'title': 'Azúcar', 'name': 'azucar.mp4' },
+        { 'id': 'com3', 'title': 'Café', 'name': 'cafe.mp4' },
+        { 'id': 'com4', 'title': 'Camarones', 'name': 'camarones.mp4' },
+        { 'id': 'com5', 'title': 'Frijoles', 'name': 'frijoles.mp4' },
+        { 'id': 'com6', 'title': 'Gallopinto', 'name': 'gallopinta.mp4' },
+        { 'id': 'com7', 'title': 'Huevos', 'name': 'huevos.mp4' },
+        { 'id': 'com8', 'title': 'Leche', 'name': 'leche.mp4' },
+        { 'id': 'com9', 'title': 'Natilla', 'name': 'natillo.mp4' },
+        { 'id': 'com10', 'title': 'Sal', 'name': 'sal.mp4' },
+        { 'id': 'com11', 'title': 'Té', 'name': 'te.mp4' },
+        { 'id': 'com12', 'title': 'Tortillas', 'name': 'tortillas.mp4' },
+    ],
+    deportes: [
+        { 'id': 'dep1', 'title': 'Baloncesto', 'name': 'baloncesto.mp4' },
+        { 'id': 'dep2', 'title': 'Béisbol', 'name': 'beisbol.mp4' },
+        { 'id': 'dep3', 'title': 'Boxeo', 'name': 'boxe.mp4' },
+        { 'id': 'dep4', 'title': 'Caminata', 'name': 'caminata.mp4' },
+        { 'id': 'dep5', 'title': 'Ciclismo', 'name': 'ciclismo.mp4' },
+        { 'id': 'dep6', 'title': 'Fútbol', 'name': 'futbol.mp4' },
+        { 'id': 'dep7', 'title': 'Karate', 'name': 'karate.mp4' },
+        { 'id': 'dep8', 'title': 'Natación', 'name': 'natacion.mp4' },
+        { 'id': 'dep9', 'title': 'Patinar', 'name': 'patinar.mp4' },
+        { 'id': 'dep10', 'title': 'Tenis', 'name': 'tenis.mp4' },
+        { 'id': 'dep11', 'title': 'Vóley', 'name': 'volley.mp4' },
+    ],
+    emociones: [
+        { 'id': 'emo1', 'title': 'Aburrido', 'name': 'aburrido.mp4' },
+        { 'id': 'emo2', 'title': 'Alegría', 'name': 'alegria.mp4' },
+        { 'id': 'emo3', 'title': 'Ansiedad', 'name': 'ansiedad.mp4' },
+        { 'id': 'emo4', 'title': 'Asustado', 'name': 'austado.mp4' },
+        { 'id': 'emo5', 'title': 'Cansancio', 'name': 'cansancio.mp4' },
+        { 'id': 'emo6', 'title': 'Decepción', 'name': 'decepcion.mp4' },
+        { 'id': 'emo7', 'title': 'Enamorado', 'name': 'enamorado.mp4' },
+        { 'id': 'emo8', 'title': 'Estrés', 'name': 'estres.mp4' },
+        { 'id': 'emo9', 'title': 'Llorar', 'name': 'llorar.mp4' },
+        { 'id': 'emo10', 'title': 'Miedo', 'name': 'miedo.mp4' },
+        { 'id': 'emo11', 'title': 'Preocupado', 'name': 'preocupado.mp4' },
+        { 'id': 'emo12', 'title': 'Risa', 'name': 'risa.mp4' },
+    ],
+    salud: [
+        { 'id': 'sal1', 'title': 'Taquicardia', 'name': 'taquicardia.mp4' },
+        { 'id': 'sal2', 'title': 'Temperatura', 'name': 'temperatura.mp4' },
+        { 'id': 'sal3', 'title': 'Tiroides', 'name': 'tiroides.mp4' },
+        { 'id': 'sal4', 'title': 'Todos los días', 'name': 'todos_los_dias.mp4' },
+        { 'id': 'sal5', 'title': 'Tomar cada 8 horas', 'name': 'tomar_cada_8.mp4' },
+        { 'id': 'sal6', 'title': 'Tomar cada 12 horas', 'name': 'tomar_cada_12.mp4' },
+        { 'id': 'sal7', 'title': 'Tomar la presión', 'name': 'tomar_la_presion.mp4' },
+        { 'id': 'sal8', 'title': 'Tos', 'name': 'tos.mp4' },
+        { 'id': 'sal9', 'title': 'Tratamiento', 'name': 'tratamiento.mp4' },
+        { 'id': 'sal10', 'title': 'Último papa nicolado', 'name': 'ultimo_papa_nicolado.mp4' },
+        { 'id': 'sal11', 'title': 'Vacuna', 'name': 'vacuna.mp4' },
     ]
 };
+
 // Function to populate video playlists
 function populateVideoPlaylist(category) {
     const playlist = document.querySelector(`.video-playlist[data-category="${category}"]`);
@@ -83,6 +178,12 @@ populateVideoPlaylist('numeros');
 populateVideoPlaylist('lugares');
 populateVideoPlaylist('relaciones');
 populateVideoPlaylist('atencion');
+populateVideoPlaylist('alfabeto');
+populateVideoPlaylist('animales');
+populateVideoPlaylist('comidas');
+populateVideoPlaylist('deportes');
+populateVideoPlaylist('emociones');
+populateVideoPlaylist('salud');
 
 // Function to handle video selection
 function handleVideoSelection(selected_video) {
@@ -112,9 +213,11 @@ document.querySelectorAll('.video').forEach(video => {
     video.onclick = () => handleVideoSelection(video);
 });
 
+
+
 // Initialize the first video of each category as active
 function initializeFirstVideos() {
-    ['numeros', 'lugares', 'relaciones', 'atencion'].forEach(category => {
+    ['numeros', 'lugares', 'relaciones', 'atencion', 'alfabeto', 'animales', 'comidas', 'deportes', 'emociones', 'salud'].forEach(category => {
         const firstVideo = document.querySelector(`.video[data-category="${category}"]`);
         if (firstVideo) {
             handleVideoSelection(firstVideo);
